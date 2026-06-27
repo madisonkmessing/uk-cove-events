@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>UK Cove — This Week's Events</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #F7F4EE;
+    color: #233240;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 20px; }
+  h1 {
+    font-family: Georgia, "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0 4px;
+  }
+  .subtitle { font-size: 12.5px; color: #6b7568; margin: 0 0 18px; }
+  .hero {
+    background: #233240;
+    border-radius: 16px;
+    padding: 16px 20px;
+    color: #F7F4EE;
+    margin-bottom: 18px;
+  }
+  .hero .label { font-size: 11px; color: #8A9474; letter-spacing: 0.04em; margin: 0 0 4px; }
+  .hero .title { font-size: 14px; font-weight: 500; margin: 0 0 3px; }
+  .hero .meta { font-size: 12px; color: #C9CED3; margin: 0; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+  }
+  .card {
+    background: #FFFFFF;
+    border: 0.5px solid rgba(35,50,64,0.12);
+    border-radius: 14px;
+    padding: 14px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .card .title { font-size: 12.5px; font-weight: 500; margin: 0 0 4px; }
+  .card .meta { font-size: 11px; color: #6b7568; margin: 0 0 8px; }
+  .card .source { font-size: 10.5px; color: #9a9488; margin: 0; }
+  .tag {
+    display: inline-block;
+    font-size: 10px;
+    background: #EFECE3;
+    color: #5b554a;
+    padding: 3px 8px;
+    border-radius: 8px;
+    margin-right: 4px;
+  }
+  .empty { font-size: 13px; color: #6b7568; text-align: center; padding: 40px 0; }
+  .updated { font-size: 10.5px; color: #9a9488; text-align: right; margin-top: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>happening this week</h1>
+  <p class="subtitle">pulled from campus and the community</p>
+  <div id="content"><p class="empty">loading…</p></div>
+  <p class="updated" id="updated"></p>
+</div>
+
+<script>
+  fetch('events_this_week.json')
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      var contentEl = document.getElementById('content');
+      var updatedEl = document.getElementById('updated');
+      var events = data.events || [];
+
+      if (events.length === 0) {
+        contentEl.innerHTML = '<p class="empty">No events available right now — check back soon.</p>';
+        return;
+      }
+
+      var topPick = events.find(function (e) { return e.is_top_pick; });
+      var rest = events.filter(function (e) { return !e.is_top_pick; });
+
+      var html = '';
+
+      if (topPick) {
+        html += '<div class="hero">' +
+          '<p class="label">TOP PICK THIS WEEK</p>' +
+          '<p class="title">' + escapeHtml(topPick.title) + '</p>' +
+          '<p class="meta">' + escapeHtml(topPick.location || '') + (topPick.start ? ' &middot; ' + escapeHtml(topPick.start) : '') + '</p>' +
+          '</div>';
+      }
+
+      html += '<div class="grid">';
+      rest.forEach(function (e) {
+        var url = e.url || '#';
+        html += '<a class="card" href="' + url + '" target="_blank" rel="noopener">' +
+          '<p class="title">' + escapeHtml(e.title) + '</p>' +
+          '<p class="meta">' + escapeHtml(e.location || '') + (e.start ? ' &middot; ' + escapeHtml(e.start) : '') + '</p>' +
+          '<p class="source">via ' + escapeHtml(prettySource(e.source)) + '</p>' +
+          '</a>';
+      });
+      html += '</div>';
+
+      contentEl.innerHTML = html;
+      updatedEl.textContent = 'updated ' + new Date(data.generated_at).toLocaleString();
+    })
+    .catch(function () {
+      document.getElementById('content').innerHTML =
+        '<p class="empty">Couldn\'t load this week\'s events. Try again soon.</p>';
+    });
+
+  function prettySource(source) {
+    var map = {
+      campus_rec: 'Campus Rec',
+      uk_athletics: 'UK Athletics',
+      visitlex: 'VisitLex',
+      engage: 'Engage',
+      manual: 'Cove curated'
+    };
+    return map[source] || source;
+  }
+
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.textContent = str || '';
+    return div.innerHTML;
+  }
+</script>
+</body>
+</html>
