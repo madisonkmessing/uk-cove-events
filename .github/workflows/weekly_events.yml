@@ -1,0 +1,41 @@
+name: Weekly UK Cove Events Pull
+
+on:
+  schedule:
+    # Runs every Sunday at 8:00 PM Eastern Time.
+    # GitHub Actions schedules run in UTC, so this is written as UTC.
+    # 8:00 PM ET = 00:00 UTC (during EDT) or 01:00 UTC (during EST).
+    # This line covers EDT (summer); see the note below for EST (winter).
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+    # Lets you click a "Run workflow" button on GitHub any time,
+    # so you don't have to wait until Sunday to test it.
+
+permissions:
+  contents: write
+
+jobs:
+  pull-events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run the weekly events script
+        run: python weekly_events.py
+
+      - name: Save and publish the results
+        run: |
+          git config user.name "uk-cove-bot"
+          git config user.email "actions@github.com"
+          git add docs/events_this_week.json
+          git diff --quiet --cached || git commit -m "Update weekly events ($(date -u +%Y-%m-%d))"
+          git push
