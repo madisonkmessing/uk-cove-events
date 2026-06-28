@@ -106,31 +106,37 @@ def fetch_uk_athletics_events() -> list[Event]:
     soup = BeautifulSoup(resp.text, "html.parser")
 
     events = []
-    # UK Athletics runs on the WMT Digital platform, which is server-rendered
-    # (unlike Engage). Selectors below target the common WMT schedule-row
-    # markup; VERIFY against the live page once you have scraper access set
-    # up, since WMT's exact class names can vary by site config.
-    rows = soup.select(".schedule-row, .c-schedule__row, tr")
+    # CONFIRMED against live HTML (June 2026): each game is a
+    # .schedule-item__body containing .schedule-item__team (h3 opponent name
+    # + p location) and .schedule-item__result (time/score text).
+    # The sport name/link sits on a sibling element outside this body block
+    # (likely .schedule-item__sport or similar on the parent .schedule-item),
+    # which wasn't included in the inspected snippet — handled as optional below.
+    cards = soup.select(".schedule-item__body")
 
-    for row in rows:
-        opponent_el = row.select_one(".schedule-opponent, .c-schedule__opponent, td")
-        sport_el = row.select_one(".schedule-sport, .c-schedule__sport")
-        date_el = row.select_one("time, .schedule-date, .c-schedule__date")
-        link_el = row.select_one("a")
-
-        if not opponent_el:
+    for card in cards:
+        team_el = card.select_one(".schedule-item__team h3")
+        if not team_el:
             continue
+        location_el = card.select_one(".schedule-item__team p")
+        result_el = card.select_one(".schedule-item__result")
+        prefix_el = card.select_one(".prefix")  # "vs." or "at"
 
-        title_text = opponent_el.get_text(strip=True)
-        sport_text = sport_el.get_text(strip=True) if sport_el else ""
-        full_title = f"Kentucky {sport_text} vs. {title_text}".strip() if sport_text else title_text
+        # sport name/link often lives on the parent .schedule-item element
+        parent = card.find_parent(class_="schedule-item")
+        sport_link_el = parent.select_one("a") if parent else None
+        sport_text = sport_link_el.get_text(strip=True) if sport_link_el else ""
+
+        opponent = team_el.get_text(" ", strip=True)
+        prefix = prefix_el.get_text(strip=True) if prefix_el else "vs."
+        full_title = f"Kentucky {sport_text} {prefix} {opponent}".replace("  ", " ").strip()
 
         events.append(Event(
             title=full_title,
             source="uk_athletics",
-            start=date_el.get("datetime") if date_el else None,
-            url=requests.compat.urljoin(UK_ATHLETICS_URL, link_el["href"]) if link_el else None,
-            description=row.get_text(" ", strip=True)[:300],
+            location=location_el.get_text(strip=True) if location_el else None,
+            description=(result_el.get_text(strip=True) if result_el else ""),
+            url=requests.compat.urljoin(UK_ATHLETICS_URL, sport_link_el["href"]) if sport_link_el and sport_link_el.get("href") else None,
             open_to_all_uk=True,
             tags=["sports", "school spirit"],
         ))
@@ -149,24 +155,40 @@ def fetch_visitlex_events() -> list[Event]:
     soup = BeautifulSoup(resp.text, "html.parser")
 
     events = []
-    # PLACEHOLDER SELECTORS — inspect the live page's HTML (view-source or
-    # browser devtools) and replace these with the real class names before
-    # trusting this in production. Left intentionally generic.
-    cards = soup.select(".event-card, .tribe-events-list-event-row, article")
+    # CONFIRMED against live HTML (June 2026): each event's text content sits
+    # inside a ".info" block — title in "h4 a.title", venue in
+    # ".info-list li.locations a", and a short blurb in "p.description".
+    # The date/time was NOT visible in the inspected snippet (it likely lives
+    # in a sibling element outside ".info", e.g. on the parent card) — we
+    # search a couple of parent levels up for anything date-shaped, and fall
+    # back to None rather than guess wrong.
+    cards = soup.select(".info")
 
     for card in cards:
-        title_el = card.select_one("h2, h3, .event-title")
+        title_el = card.select_one("h4 a.title")
         if not title_el:
             continue
-        link_el = card.select_one("a")
-        date_el = card.select_one("time")
+        location_el = card.select_one(".info-list li.locations a")
+        desc_el = card.select_one("p.description")
+
+        # Look for a date/time element nearby (often a sibling outside .info)
+        date_el = None
+        container = card.find_parent()
+        for _ in range(3):
+            if container is None:
+                break
+            date_el = container.select_one("time, [class*='date']")
+            if date_el:
+                break
+            container = container.find_parent()
 
         events.append(Event(
             title=title_el.get_text(strip=True),
             source="visitlex",
-            start=date_el.get("datetime") if date_el else None,
-            url=link_el["href"] if link_el else None,
-            description=card.get_text(" ", strip=True)[:300],
+            location=location_el.get_text(strip=True) if location_el else None,
+            start=date_el.get_text(strip=True) if date_el else None,
+            url=requests.compat.urljoin(VISITLEX_URL, title_el["href"]) if title_el.get("href") else None,
+            description=desc_el.get_text(strip=True) if desc_el else "",
             open_to_all_uk=True,   # community events — generally open, but not UK-specific
             tags=["community", "lexington"],
         ))
