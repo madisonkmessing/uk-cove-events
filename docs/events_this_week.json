@@ -1,6 +1,177 @@
 {
-  "generated_at": "2026-06-27T20:05:37.294726Z",
-  "week_of": "2026-06-27",
-  "count": 0,
-  "events": []
+  "generated_at": "2026-06-28T02:09:17.106871Z",
+  "week_of": "2026-06-28",
+  "count": 10,
+  "events": [
+    {
+      "title": "Kentucky Women's Soccer vs. Lexington SC (EXH)",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "5:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": true
+    },
+    {
+      "title": "Kentucky Men's Soccer vs. Northern Kentucky (EXH)",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer vs. Detroit Mercy",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer vs. UAB (EXH)",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer vs. Kent State",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "1:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer at Dayton",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Dayton, Ohio | Baujan Field",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer vs. Western Michigan",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball vs. Wisconsin",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Milwaukee, Wisc.",
+      "description": "9:00 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball vs. Pittsburgh",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Milwaukee, Wisc.",
+      "description": "4:00 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer vs. Louisville",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    }
+  ]
 }
