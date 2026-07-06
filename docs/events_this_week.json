@@ -1,8 +1,42 @@
 {
-  "generated_at": "2026-06-29T14:40:45.564838Z",
-  "week_of": "2026-06-29",
-  "count": 10,
+  "generated_at": "2026-07-06T00:45:06.946701Z",
+  "week_of": "2026-07-06",
+  "count": 12,
   "events": [
+    {
+      "title": "Final Frontier Fest",
+      "source": "tadoo",
+      "start": "2026-07-11T19:00:00+00:00",
+      "end": null,
+      "location": "MoonDance Ampitheatre at Midnight Pass",
+      "description": "Final Frontier Fest is an eclectic local music and arts festival featuring performances from several local and regional acts.\nPerforms include: Topsoil (Indie/Jam), Billy Fortune Unit (Bluegrass), Tiramisu (Jazz Fusion), Modern System (Alt Rock)...",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 4.0,
+      "is_top_pick": true
+    },
+    {
+      "title": "Eastside Evenings",
+      "source": "tadoo",
+      "start": "2026-07-17T22:00:00+00:00",
+      "end": null,
+      "location": "Charles Young Park",
+      "description": "This outdoor concert series brings live music to Lexington\u2019s Eastside neighborhood. Attendees are encouraged to bring lawn chairs and blankets for seating while enjoying live R&B, soul, funk, and dance music.",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 4.0,
+      "is_top_pick": false
+    },
     {
       "title": "Kentucky Women's Soccer vs. Lexington SC (EXH)",
       "source": "uk_athletics",
@@ -18,7 +52,7 @@
         "school spirit"
       ],
       "score": 2.0,
-      "is_top_pick": true
+      "is_top_pick": false
     },
     {
       "title": "Kentucky Men's Soccer vs. Northern Kentucky (EXH)",
