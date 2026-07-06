@@ -14,7 +14,7 @@ SCHEDULE: runs every Sunday at 8:00 PM, picking the events for the coming week.
 SOURCE STATUS (see chat for full explanation):
   - campus_rec    : WORKING — plain HTML, scraped directly below.
   - uk_athletics  : WORKING — server-rendered schedule page, scraped below.
-  - visitlex      : STUB — structure not yet confirmed, fill in selectors once checked.
+  - tadoo         : WORKING — official ICS calendar feed from smileypete.com/tadoo.
   - engage        : NOT IMPLEMENTED — requires UK to enable an RSS/iCal feed or grant
                     an Anthology/Campus Labs API key. This script has a slot ready
                     for it (see fetch_engage_events) once that access exists.
@@ -23,7 +23,7 @@ SOURCE STATUS (see chat for full explanation):
                     Left as a manual-curation slot (see MANUAL_EVENTS below) instead.
 
 Install deps:
-    pip install requests beautifulsoup4 schedule --break-system-packages
+    pip install requests beautifulsoup4 icalendar schedule --break-system-packages
 """
 
 import json
@@ -144,54 +144,73 @@ def fetch_uk_athletics_events() -> list[Event]:
 
 
 # ---------------------------------------------------------------------------
-# Source 4: VisitLex calendar (STUB — confirm page structure before relying on this)
+# Source 4: Smiley Pete / Tadoo — Lexington events ICS calendar feed
+# WORKING — uses the official ICS feed, no scraping required.
+# Feed URL confirmed live: https://smileypete.com/search/event/tadoo/calendar.ics
 # ---------------------------------------------------------------------------
 
-VISITLEX_URL = "https://www.visitlex.com/things-to-do/calendar-of-events/"
+TADOO_ICS_URL = "https://smileypete.com/search/event/tadoo/calendar.ics"
 
-def fetch_visitlex_events() -> list[Event]:
-    resp = requests.get(VISITLEX_URL, timeout=15, headers={"User-Agent": "UKCoveBot/1.0"})
+def fetch_tadoo_events() -> list[Event]:
+    """
+    Reads the Tadoo/Smiley Pete ICS calendar feed directly.
+    ICS is a structured calendar format — far more reliable than scraping HTML.
+    Only returns events starting within the next 14 days so the feed stays
+    relevant to "this week."
+    Requires: pip install icalendar
+    """
+    try:
+        from icalendar import Calendar
+    except ImportError:
+        print("[warn] tadoo: icalendar package not installed — run: pip install icalendar")
+        return []
+
+    resp = requests.get(TADOO_ICS_URL, timeout=15, headers={"User-Agent": "UKCoveBot/1.0"})
     resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+
+    cal = Calendar.from_ical(resp.content)
+    now = datetime.datetime.now(datetime.timezone.utc)
+    cutoff = now + datetime.timedelta(days=14)
 
     events = []
-    # CONFIRMED against live HTML (June 2026): each event's text content sits
-    # inside a ".info" block — title in "h4 a.title", venue in
-    # ".info-list li.locations a", and a short blurb in "p.description".
-    # The date/time was NOT visible in the inspected snippet (it likely lives
-    # in a sibling element outside ".info", e.g. on the parent card) — we
-    # search a couple of parent levels up for anything date-shaped, and fall
-    # back to None rather than guess wrong.
-    cards = soup.select(".info")
-
-    for card in cards:
-        title_el = card.select_one("h4 a.title")
-        if not title_el:
+    for component in cal.walk():
+        if component.name != "VEVENT":
             continue
-        location_el = card.select_one(".info-list li.locations a")
-        desc_el = card.select_one("p.description")
 
-        # Look for a date/time element nearby (often a sibling outside .info)
-        date_el = None
-        container = card.find_parent()
-        for _ in range(3):
-            if container is None:
-                break
-            date_el = container.select_one("time, [class*='date']")
-            if date_el:
-                break
-            container = container.find_parent()
+        summary = str(component.get("SUMMARY", "")).strip()
+        if not summary:
+            continue
+
+        dtstart = component.get("DTSTART")
+        start_dt = dtstart.dt if dtstart else None
+
+        # Normalize to datetime for comparison
+        if isinstance(start_dt, datetime.date) and not isinstance(start_dt, datetime.datetime):
+            start_dt = datetime.datetime(start_dt.year, start_dt.month, start_dt.day,
+                                         tzinfo=datetime.timezone.utc)
+
+        # Filter to events happening within the next 14 days
+        if start_dt and isinstance(start_dt, datetime.datetime):
+            if start_dt.tzinfo is None:
+                start_dt = start_dt.replace(tzinfo=datetime.timezone.utc)
+            if not (now <= start_dt <= cutoff):
+                continue
+
+        location = str(component.get("LOCATION", "")).strip() or None
+        description = str(component.get("DESCRIPTION", "")).strip()[:300]
+        url = str(component.get("URL", "")).strip() or None
 
         events.append(Event(
-            title=title_el.get_text(strip=True),
-            source="visitlex",
-            location=location_el.get_text(strip=True) if location_el else None,
-            start=date_el.get_text(strip=True) if date_el else None,
-            url=requests.compat.urljoin(VISITLEX_URL, title_el["href"]) if title_el.get("href") else None,
-            description=desc_el.get_text(strip=True) if desc_el else "",
-            open_to_all_uk=True,   # community events — generally open, but not UK-specific
+            title=summary,
+            source="tadoo",
+            start=start_dt.isoformat() if start_dt else None,
+            location=location,
+            description=description,
+            url=url,
+            open_to_all_uk=True,
             tags=["community", "lexington"],
         ))
+
     return events
 
 
@@ -299,9 +318,9 @@ def run_weekly_pull(output_path: str = "docs/events_this_week.json", top_n: int 
         print(f"[warn] uk_athletics fetch failed: {e}")
 
     try:
-        all_events += fetch_visitlex_events()
+        all_events += fetch_tadoo_events()
     except Exception as e:
-        print(f"[warn] visitlex fetch failed: {e}")
+        print(f"[warn] tadoo fetch failed: {e}")
 
     all_events += fetch_engage_events()   # no-op until access exists
     all_events += MANUAL_EVENTS
