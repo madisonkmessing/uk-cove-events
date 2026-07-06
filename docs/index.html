@@ -90,7 +90,7 @@
         html += '<div class="hero">' +
           '<p class="label">TOP PICK THIS WEEK</p>' +
           '<p class="title">' + escapeHtml(topPick.title) + '</p>' +
-          '<p class="meta">' + escapeHtml(topPick.location || '') + (topPick.start ? ' &middot; ' + escapeHtml(topPick.start) : '') + '</p>' +
+          '<p class="meta">' + escapeHtml(topPick.location || '') + (topPick.start ? ' &middot; ' + escapeHtml(formatDate(topPick.start)) : '') + '</p>' +
           '</div>';
       }
 
@@ -99,7 +99,7 @@
         var url = e.url || '#';
         html += '<a class="card" href="' + url + '" target="_blank" rel="noopener">' +
           '<p class="title">' + escapeHtml(e.title) + '</p>' +
-          '<p class="meta">' + escapeHtml(e.location || '') + (e.start ? ' &middot; ' + escapeHtml(e.start) : '') + '</p>' +
+          '<p class="meta">' + escapeHtml(e.location || '') + (e.start ? ' &middot; ' + escapeHtml(formatDate(e.start)) : '') + '</p>' +
           '<p class="source">via ' + escapeHtml(prettySource(e.source)) + '</p>' +
           '</a>';
       });
@@ -113,15 +113,38 @@
         '<p class="empty">Couldn\'t load this week\'s events. Try again soon.</p>';
     });
 
-  function prettySource(source) {
+ function prettySource(source) {
     var map = {
       campus_rec: 'Campus Rec',
       uk_athletics: 'UK Athletics',
-      visitlex: 'VisitLex',
+      tadoo: 'Tadoo · Lexington',
       engage: 'Engage',
       manual: 'Cove curated'
     };
     return map[source] || source;
+  }
+
+  function formatDate(start) {
+    if (!start) return '';
+    // UK Athletics stores plain text like "5:00 pm" — return as-is
+    if (!start.includes('T') && !start.includes('-')) return start;
+    try {
+      var d = new Date(start);
+      var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+      var months = ['Jan','Feb','Mar','Apr','May','Jun',
+                    'Jul','Aug','Sep','Oct','Nov','Dec'];
+      var day = days[d.getDay()];
+      var month = months[d.getMonth()];
+      var date = d.getDate();
+      var hours = d.getHours();
+      var mins = d.getMinutes();
+      var ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12 || 12;
+      var minStr = mins === 0 ? '' : ':' + (mins < 10 ? '0' : '') + mins;
+      return day + ', ' + month + ' ' + date + ' \u00b7 ' + hours + minStr + ' ' + ampm;
+    } catch (e) {
+      return start;
+    }
   }
 
   function escapeHtml(str) {
