@@ -1,25 +1,8 @@
 {
-  "generated_at": "2026-07-06T14:07:02.550763Z",
-  "week_of": "2026-07-06",
+  "generated_at": "2026-07-13T11:42:31.104799Z",
+  "week_of": "2026-07-13",
   "count": 12,
   "events": [
-    {
-      "title": "Final Frontier Fest",
-      "source": "tadoo",
-      "start": "2026-07-11T19:00:00+00:00",
-      "end": null,
-      "location": "MoonDance Ampitheatre at Midnight Pass",
-      "description": "Final Frontier Fest is an eclectic local music and arts festival featuring performances from several local and regional acts.\nPerforms include: Topsoil (Indie/Jam), Billy Fortune Unit (Bluegrass), Tiramisu (Jazz Fusion), Modern System (Alt Rock)...",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 4.0,
-      "is_top_pick": true
-    },
     {
       "title": "Eastside Evenings",
       "source": "tadoo",
@@ -35,7 +18,7 @@
         "lexington"
       ],
       "score": 4.0,
-      "is_top_pick": false
+      "is_top_pick": true
     },
     {
       "title": "Kentucky Women's Soccer vs. Lexington SC (EXH)",
@@ -205,6 +188,23 @@
         "school spirit"
       ],
       "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "John R. Miller",
+      "source": "tadoo",
+      "start": "2026-07-19T23:00:00+00:00",
+      "end": null,
+      "location": "The Green Lantern Bar",
+      "description": "Songwriter John R. Miller makes an intimate stop at LExingotn's favorite dive bar in support of his fifth album, \"The Great unknowing.\"\u00a0Born in the Washington, DC area and raised in West Virginia,\u00a0Miller\u00a0has built a reputation as a thoughtful, bounda",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 0.0,
       "is_top_pick": false
     }
   ]
