@@ -1,25 +1,8 @@
 {
-  "generated_at": "2026-07-13T11:42:31.104799Z",
-  "week_of": "2026-07-13",
-  "count": 12,
+  "generated_at": "2026-07-20T10:32:59.801279Z",
+  "week_of": "2026-07-20",
+  "count": 11,
   "events": [
-    {
-      "title": "Eastside Evenings",
-      "source": "tadoo",
-      "start": "2026-07-17T22:00:00+00:00",
-      "end": null,
-      "location": "Charles Young Park",
-      "description": "This outdoor concert series brings live music to Lexington\u2019s Eastside neighborhood. Attendees are encouraged to bring lawn chairs and blankets for seating while enjoying live R&B, soul, funk, and dance music.",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 4.0,
-      "is_top_pick": true
-    },
     {
       "title": "Kentucky Women's Soccer vs. Lexington SC (EXH)",
       "source": "uk_athletics",
@@ -28,6 +11,23 @@
       "location": "Lexington, Ky. | Bell Soccer Complex",
       "description": "5:00 pm",
       "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": true
+    },
+    {
+      "title": "Kentucky Volleyball vs. Ohio (EXH)",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky.",
+      "description": "5:00 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -62,6 +62,23 @@
       "location": "Lexington, Ky. | Bell Soccer Complex",
       "description": "7:30 pm",
       "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball vs. Dayton (EXH)",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky.",
+      "description": "6:30 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -157,46 +174,12 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Volleyball vs. Pittsburgh",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Milwaukee, Wisc.",
-      "description": "4:00 pm",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Soccer vs. Louisville",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "7:30 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "John R. Miller",
+      "title": "The Lexington Theatre Company presents Matilda",
       "source": "tadoo",
-      "start": "2026-07-19T23:00:00+00:00",
+      "start": "2026-07-30T23:30:00+00:00",
       "end": null,
-      "location": "The Green Lantern Bar",
-      "description": "Songwriter John R. Miller makes an intimate stop at LExingotn's favorite dive bar in support of his fifth album, \"The Great unknowing.\"\u00a0Born in the Washington, DC area and raised in West Virginia,\u00a0Miller\u00a0has built a reputation as a thoughtful, bounda",
+      "location": "Lexington Opera House",
+      "description": "\u201cSometimes you have to be a little bit naughty!\u201d Join us for this story about resilience, finding family, and knowing the right time to stand up for what you believe in.\n\nMatilda Wormwood, an exceptional young girl in a peculiar family, faces h...",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
