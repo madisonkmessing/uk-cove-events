@@ -1,76 +1,8 @@
 {
-  "generated_at": "2026-08-03T12:39:38.368343Z",
-  "week_of": "2026-08-03",
+  "generated_at": "2026-08-10T01:21:45.374679Z",
+  "week_of": "2026-08-10",
   "count": 12,
   "events": [
-    {
-      "title": "Free Friday Flicks",
-      "source": "tadoo",
-      "start": "2026-08-07T23:00:00+00:00",
-      "end": null,
-      "location": "Jacobson Park",
-      "description": "This outdoor summer film series features vendors and activities for all ages before the screening of a family-friendly film. Attendees are encouraged to bring lawn chairs or blankets for seating.",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 3.5,
-      "is_top_pick": true
-    },
-    {
-      "title": "Kentucky Women's Soccer vs. Lexington SC (EXH)",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "5:00 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Volleyball vs. Ohio (EXH)",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky.",
-      "description": "5:00 pm",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Soccer vs. Northern Kentucky (EXH)",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "7:30 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
     {
       "title": "Kentucky Women's Soccer vs. Detroit Mercy",
       "source": "uk_athletics",
@@ -86,7 +18,7 @@
         "school spirit"
       ],
       "score": 2.0,
-      "is_top_pick": false
+      "is_top_pick": true
     },
     {
       "title": "Kentucky Volleyball vs. Dayton (EXH)",
@@ -191,12 +123,80 @@
       "is_top_pick": false
     },
     {
-      "title": "Braille and Ales",
-      "source": "tadoo",
-      "start": "2026-08-06T22:00:00+00:00",
+      "title": "Kentucky Volleyball vs. Pittsburgh",
+      "source": "uk_athletics",
+      "start": null,
       "end": null,
-      "location": "Tapster",
-      "description": "An interactive fundraiser for the Kentucky School for the Blind Charitable Foundation will let you learn about the blind and visually impaired community. Join us for a night of knowledge & good beer.",
+      "location": "Milwaukee, Wisc.",
+      "description": "4:00 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer vs. Louisville",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer at Ohio State",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Columbus, Ohio | Jesse Owens Memorial Stadium",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Friends & Family Tour: Tales from the Oregon Coast, an exhibit of new painting from John Lackey",
+      "source": "tadoo",
+      "start": "2026-08-21T21:00:00+00:00",
+      "end": null,
+      "location": "Luigart Gallery",
+      "description": "Luigart Gallery is proud to present Friends & Family Tour: Tales from the Oregon Coast, an exhibit of new paintings by John Lackey. The exhibit will run from August 18 -September 7, and a reception for the artist will take place Friday August 21 ...",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 0.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Friends & Family Tour: Tales from the Coast, an exhibit of new paintings by John Lackey",
+      "source": "tadoo",
+      "start": "2026-08-21T21:00:00+00:00",
+      "end": null,
+      "location": "LuigART Event Gallery",
+      "description": "Luigart Gallery is proud to present Friends & Family Tour: Tales from the Oregon Coast, an exhibit of new paintings by John Lackey. The exhibit will run from August 15-September 7, and a reception for the artist will take placeFriday August 21 from 5",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
