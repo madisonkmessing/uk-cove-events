@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-17T00:59:38.080325Z",
-  "week_of": "2026-08-17",
+  "generated_at": "2026-08-24T01:01:16.176069Z",
+  "week_of": "2026-08-24",
   "count": 12,
   "events": [
     {
       "title": "Chamber Music Festival of Lexington",
       "source": "tadoo",
-      "start": "2026-08-21T00:00:00+00:00",
+      "start": "2026-08-27T23:30:00+00:00",
       "end": null,
       "location": "Pam Miller Downtown Arts Center",
-      "description": "The Chamber Music Festival of Lexington, now operating as Chamber Music Lex, today announced details of its nineteenth season, with formal performances, free public appearances, and educational work with students in Lexington this August. Native ...",
+      "description": "The Chamber Music Festival of Lexington, now operating as Chamber Music Lex, presents its nineteenth season, with formal performances, free public appearances, and educational work with students in Lexington this August 21-29. Native Lexingtonian...",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -21,71 +21,54 @@
       "is_top_pick": true
     },
     {
-      "title": "Kentucky Women's Soccer vs. Kent State",
-      "source": "uk_athletics",
-      "start": null,
+      "title": "SCFA Expansive Sounds #10: Joe McPhee, Ken Vandermark, Chris Corsano",
+      "source": "tadoo",
+      "start": "2026-09-03T23:30:00+00:00",
       "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "11:00 am",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "location": "Singletary Center for The Arts",
+      "description": "Three leading figures in free jazz perform together as a trio for the first time, with Joe McPhee on saxophone and voice, Ken Vandermark on reeds and Chris Corsano on drums and percussion. Drawing on decades of avant-garde and experimental music, the",
+      "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
-        "sports",
-        "school spirit"
+        "community",
+        "lexington"
       ],
-      "score": 2.0,
+      "score": 5.5,
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Soccer at Dayton",
-      "source": "uk_athletics",
-      "start": null,
+      "title": "Free Book Friday",
+      "source": "tadoo",
+      "start": "2026-08-28T14:00:00+00:00",
       "end": null,
-      "location": "Dayton, Ohio | Baujan Field",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "location": "International Book Project",
+      "description": "\ud83d\udce3FREE BOOKS!\ud83d\udcda\n\nDid we get your attention? Free Book Friday is BACK at International Book Project on August 28th.\n\n\ud83d\udecd\ufe0fYou may select up to one bag full of books per shopper. Please bring your own bag, and we request that it be standard-sized (a...",
+      "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
-        "sports",
-        "school spirit"
+        "community",
+        "lexington"
       ],
-      "score": 2.0,
+      "score": 3.5,
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Soccer vs. Western Michigan",
-      "source": "uk_athletics",
-      "start": null,
+      "title": "SCFA Expansive Sounds #10: Joe McPhee, Ken Vandermark, Chris Corsano",
+      "source": "tadoo",
+      "start": "2026-09-03T23:30:00+00:00",
       "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "7:30 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "location": "Singletary Center for The Arts",
+      "description": "Three titans of free jazz unite for the first time as part of the Singletary Center\u2019s Expansive Sounds Series. Joe McPhee (sax/voice), Ken Vandermark (reeds), and Chris Corsano (drums/percussion) have collaborated many times throughout the years ...",
+      "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
-        "sports",
-        "school spirit"
+        "community",
+        "lexington"
       ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Volleyball vs. Wisconsin",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Milwaukee, Wisc.",
-      "description": "9:00 pm",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
+      "score": 3.5,
       "is_top_pick": false
     },
     {
@@ -94,7 +77,7 @@
       "start": null,
       "end": null,
       "location": "Milwaukee, Wisc.",
-      "description": "4:00 pm",
+      "description": "L 3-1",
       "url": "https://ukathletics.com/sports/wvball/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -191,18 +174,35 @@
       "is_top_pick": false
     },
     {
-      "title": "Rooftop Salsa Night",
-      "source": "tadoo",
-      "start": "2026-08-28T22:30:00+00:00",
+      "title": "Kentucky Women's Soccer vs. Wright State",
+      "source": "uk_athletics",
+      "start": null,
       "end": null,
-      "location": "Kentucky Castle",
-      "description": "The Kentucky Castle is thrilled to host Salsa Nights this summer on our Rooftop!\n\n\n\nThe Dance Experience: Experience vibrant Salsa music and dance with festive roots of Salsa, Cha Cha Cha, Son & Comparsa from the birth place of Salsa, Cuba!\n...",
-      "url": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
-        "community",
-        "lexington"
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Golf at Visit Knox Collegiate",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Fox Den Country Club | Knoxville, Tenn.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
       ],
       "score": 2.0,
       "is_top_pick": false
