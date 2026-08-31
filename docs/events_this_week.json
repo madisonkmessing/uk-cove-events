@@ -1,25 +1,8 @@
 {
-  "generated_at": "2026-08-24T01:01:16.176069Z",
-  "week_of": "2026-08-24",
+  "generated_at": "2026-08-31T03:15:00.620229Z",
+  "week_of": "2026-08-31",
   "count": 12,
   "events": [
-    {
-      "title": "Chamber Music Festival of Lexington",
-      "source": "tadoo",
-      "start": "2026-08-27T23:30:00+00:00",
-      "end": null,
-      "location": "Pam Miller Downtown Arts Center",
-      "description": "The Chamber Music Festival of Lexington, now operating as Chamber Music Lex, presents its nineteenth season, with formal performances, free public appearances, and educational work with students in Lexington this August 21-29. Native Lexingtonian...",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 9.5,
-      "is_top_pick": true
-    },
     {
       "title": "SCFA Expansive Sounds #10: Joe McPhee, Ken Vandermark, Chris Corsano",
       "source": "tadoo",
@@ -35,15 +18,15 @@
         "lexington"
       ],
       "score": 5.5,
-      "is_top_pick": false
+      "is_top_pick": true
     },
     {
-      "title": "Free Book Friday",
+      "title": "Antagonist Productions: \"Velvet Revival\"",
       "source": "tadoo",
-      "start": "2026-08-28T14:00:00+00:00",
+      "start": "2026-09-11T23:30:00+00:00",
       "end": null,
-      "location": "International Book Project",
-      "description": "\ud83d\udce3FREE BOOKS!\ud83d\udcda\n\nDid we get your attention? Free Book Friday is BACK at International Book Project on August 28th.\n\n\ud83d\udecd\ufe0fYou may select up to one bag full of books per shopper. Please bring your own bag, and we request that it be standard-sized (a...",
+      "location": "Antagonist Productions",
+      "description": "Velvet Revival is a new production in Lexington featuring sultry and energetic jazz music, dance, and circus performance. The emcee invites you to escape the world and enter a Prohibition era jazz club for unforgettable entertainment.",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -51,7 +34,7 @@
         "community",
         "lexington"
       ],
-      "score": 3.5,
+      "score": 4.0,
       "is_top_pick": false
     },
     {
@@ -72,115 +55,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Volleyball vs. Pittsburgh",
+      "title": "Kentucky Men's Golf at Visit Knox Collegiate",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Milwaukee, Wisc.",
-      "description": "L 3-1",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Soccer vs. Louisville",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "7:30 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Soccer at Ohio State",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Columbus, Ohio | Jesse Owens Memorial Stadium",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Soccer at Virginia Tech",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Blacksburg, Va. | Thompson Field",
-      "description": "6:00 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Volleyball vs. Utah State",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky.",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Volleyball vs. South Florida",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky.",
-      "description": "6:00 pm",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Soccer vs. Wright State",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "location": "Fox Den Country Club | Knoxville, Tenn.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -198,6 +79,125 @@
       "location": "Fox Den Country Club | Knoxville, Tenn.",
       "description": "All Day",
       "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball vs. UCLA",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky.",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer vs. Louisville",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer vs. Evansville",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky vs. Youngstown State",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky.",
+      "description": "1:00 pm",
+      "url": "https://www.kroger.com",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer vs. Bowling Green",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "1:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball vs. Penn State",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Wrigley Field (Chicago, Ill.)",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Golf vs. Folds of Honor Collegiate",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Grand Haven, Mich. / American Dunes Golf Club",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/wgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
