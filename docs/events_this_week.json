@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T02:36:31.031111Z",
-  "week_of": "2026-09-07",
+  "generated_at": "2026-09-14T03:06:24.483530Z",
+  "week_of": "2026-09-14",
   "count": 12,
   "events": [
     {
@@ -19,40 +19,6 @@
       ],
       "score": 7.5,
       "is_top_pick": true
-    },
-    {
-      "title": "Antagonist Productions: \"Velvet Revival\"",
-      "source": "tadoo",
-      "start": "2026-09-11T23:30:00+00:00",
-      "end": null,
-      "location": "Antagonist Productions",
-      "description": "Velvet Revival is a new production in Lexington featuring sultry and energetic jazz music, dance, and circus performance. The emcee invites you to escape the world and enter a Prohibition era jazz club for unforgettable entertainment.",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 4.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "The Fab Four: Tribute to the Beatles\u2019 \u201cHelp!\u201d and the Hits",
-      "source": "tadoo",
-      "start": "2026-09-12T23:30:00+00:00",
-      "end": null,
-      "location": "Lexington Opera House",
-      "description": "Beatles tribute band The Fab Four recreates the music and look of the Fab Four in a stage show celebrating the 1965 album \u201cHelp!\u201d and favorites spanning the band\u2019s career. The performance traces the Beatles\u2019 evolution through costume changes and note",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 4.0,
-      "is_top_pick": false
     },
     {
       "title": "Always Loretta: The Ultimate Loretta Lynn Tribute",
@@ -106,13 +72,30 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Golf vs. Folds of Honor Collegiate",
+      "title": "September | Grow Your Perspective: Tour an Organic, Regenerative Farm",
+      "source": "tadoo",
+      "start": "2026-09-26T13:00:00+00:00",
+      "end": null,
+      "location": "Elmwood Stock Farm",
+      "description": "Walk our regenerative, organic farm and sample daily farm life. Children attend for free!\n\nOn tap: The farm cools off. Talk to turkeys and shift into fall mode.\n\nTake a guided, early autumn tour with farmer Mac Stone for a look at the crops a...",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 3.5,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Golf at Bearcat Invitational",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Grand Haven, Mich. / American Dunes Golf Club",
+      "location": "Coldstream Country Club | Cincinnati, Ohio",
       "description": "All Day",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -123,13 +106,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Golf vs. Folds of Honor Collegiate",
+      "title": "Kentucky Men's Golf at Bearcat Invitational",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Grand Haven, Mich. / American Dunes Golf Club",
+      "location": "Coldstream Country Club | Cincinnati, Ohio",
       "description": "All Day",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -140,7 +123,24 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Soccer vs. Ohio State",
+      "title": "Kentucky Women's Soccer at Missouri",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Columbia, Mo. | Audrey J. Walton Soccer Stadium",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer vs. Marshall",
       "source": "uk_athletics",
       "start": null,
       "end": null,
@@ -157,13 +157,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Golf vs. Folds of Honor Collegiate",
+      "title": "Kentucky Football at Texas A&M",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Grand Haven, Mich. / American Dunes Golf Club",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "location": "College Station, Texas",
+      "description": "3:30 pm",
+      "url": "https://ukathletics.com/sports/football/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -174,30 +174,30 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Volleyball vs. North Carolina",
+      "title": "Kentucky Softball vs. Eastern Kentucky",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "John Cropp Stadium",
+      "description": "1:00 pm",
+      "url": "https://ukathletics.com/sports/softball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball vs. Louisville",
       "source": "uk_athletics",
       "start": null,
       "end": null,
       "location": "Lexington, Ky.",
-      "description": "6:00 pm",
+      "description": "3:00 pm",
       "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Cross Country vs. Tennessee Invitational",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Knoxville, Tenn. | UT XC Course at Cherokee Farm",
-      "description": "TBA",
-      "url": "https://ukathletics.com/sports/cross/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
