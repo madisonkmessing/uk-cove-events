@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-14T03:06:24.483530Z",
-  "week_of": "2026-09-14",
+  "generated_at": "2026-09-21T03:03:23.523677Z",
+  "week_of": "2026-09-21",
   "count": 12,
   "events": [
     {
-      "title": "Be Healthy Bash",
+      "title": "Wynonna Judd: Kentucky Queen Tour",
       "source": "tadoo",
-      "start": "2026-09-19T15:00:00+00:00",
+      "start": "2026-09-30T23:30:00+00:00",
       "end": null,
-      "location": "Fayette Co. Extension Office",
-      "description": "UK HealthCare and UK Cooperative Extension Service present the Be Healthy Bash.\n\nEat, play and kick off fall with our free family-friendly health and wellness festival. The Be Healthy Bash is open to the public and will take place rain or shine...",
+      "location": "Lexington Opera House",
+      "description": "Country Music Hall of Famer Wynonna Judd returns to Kentucky for a career-spanning performance drawing from more than four decades of music. The five-time Grammy winner rose to fame alongside her mother Naomi as The Judds before launching a successfu",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -17,16 +17,16 @@
         "community",
         "lexington"
       ],
-      "score": 7.5,
+      "score": 4.0,
       "is_top_pick": true
     },
     {
-      "title": "Always Loretta: The Ultimate Loretta Lynn Tribute",
+      "title": "Wynonna Judd: Kentucky Queen Tour",
       "source": "tadoo",
-      "start": "2026-09-17T23:30:00+00:00",
+      "start": "2026-09-30T23:30:00+00:00",
       "end": null,
       "location": "Lexington Opera House",
-      "description": "Singer Emily Portman celebrates the music and legacy of country legend Loretta Lynn in a tribute featuring favorites from across Lynn\u2019s six-decade career. Portman, who performed with Lynn and received her personal approval, is joined by the Coalminer",
+      "description": "Country Music Hall of Famer Wynonna Judd returns to Kentucky for a career-spanning performance drawing from more than four decades of music. The five-time Grammy winner rose to fame alongside her mother Naomi as The Judds before launching a successfu",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -38,12 +38,12 @@
       "is_top_pick": false
     },
     {
-      "title": "Lexington Philharmonic Opening Night: New World",
+      "title": "In One A-Chord:  Lexington Sacred Music Festival",
       "source": "tadoo",
-      "start": "2026-09-18T23:30:00+00:00",
+      "start": "2026-10-03T00:00:00+00:00",
       "end": null,
-      "location": "Singletary Center for The Arts",
-      "description": "LexPhil opens its 65th anniversary season with a homecoming celebration. The evening will begin with Clarice Assad\u2019s \u201cBai\u00e3o \u2019n Blues\u201d followed by Edward Elgar\u2019s \u201cCello Concerto\u201d featuring Lexington-native Ania Lewis. Finally, music director M\u00e9lisse B",
+      "location": "Various Locations",
+      "description": "In One A-Chord: Lexington Sacred Music Festival is a week-long celebration featuring live sacred musical experiences, humanities lectures, theatrical and dance happenings, poetic readings and so much more! The festival is rooted in music\u2019s power ...",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -55,12 +55,12 @@
       "is_top_pick": false
     },
     {
-      "title": "Lexington Philharmonic Opening Night: New World",
+      "title": "Warehouse Block Party",
       "source": "tadoo",
-      "start": "2026-09-18T23:30:00+00:00",
+      "start": "2026-10-03T18:00:00+00:00",
       "end": null,
-      "location": "Singletary Center for The Arts",
-      "description": "LexPhil opens its 65th anniversary season with a homecoming celebration. The evening will begin with Clarice Assad\u2019s \u201cBai\u00e3o \u2019n Blues\u201d followed by Edward Elgar\u2019s \u201cCello Concerto\u201d featuring Lexington-native Ania Lewis. Finally, music director M\u00e9lisse B",
+      "location": "Void Sake",
+      "description": "Presented by Void Sake, The Warehouse Block Party returns with an expanded makers market, live music, and a sampling of the National Avenue neighborhood flavor. This year\u2019s event promises more than 50 local vendors, food and beverage trucks, a kids\u2019",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -89,91 +89,6 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Golf at Bearcat Invitational",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Coldstream Country Club | Cincinnati, Ohio",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/mgolf/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Golf at Bearcat Invitational",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Coldstream Country Club | Cincinnati, Ohio",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/mgolf/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Soccer at Missouri",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Columbia, Mo. | Audrey J. Walton Soccer Stadium",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Soccer vs. Marshall",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "7:30 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Football at Texas A&M",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "College Station, Texas",
-      "description": "3:30 pm",
-      "url": "https://ukathletics.com/sports/football/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
       "title": "Kentucky Softball vs. Eastern Kentucky",
       "source": "uk_athletics",
       "start": null,
@@ -196,8 +111,93 @@
       "start": null,
       "end": null,
       "location": "Lexington, Ky.",
-      "description": "3:00 pm",
+      "description": "W 3-1",
       "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Golf vs. Bettie Lou Evans Invitational",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. / University Club of KY (Big Blue)",
+      "description": "8:30 am",
+      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Golf vs. Bettie Lou Evans Invitational",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. / University Club of KY (Big Blue)",
+      "description": "8:30 am",
+      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer at Lipscomb",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Nashville, Tenn. | Lipscomb Soccer Complex",
+      "description": "6:00 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball at Vanderbilt",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Nashville, Tenn.",
+      "description": "9:00 pm",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer at South Carolina",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Columbia, S.C. | Eugene E. Stone III Stadium",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
