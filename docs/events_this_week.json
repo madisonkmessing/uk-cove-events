@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T03:03:23.523677Z",
-  "week_of": "2026-09-21",
+  "generated_at": "2026-09-28T03:19:50.809335Z",
+  "week_of": "2026-09-28",
   "count": 12,
   "events": [
     {
@@ -72,30 +72,13 @@
       "is_top_pick": false
     },
     {
-      "title": "September | Grow Your Perspective: Tour an Organic, Regenerative Farm",
-      "source": "tadoo",
-      "start": "2026-09-26T13:00:00+00:00",
-      "end": null,
-      "location": "Elmwood Stock Farm",
-      "description": "Walk our regenerative, organic farm and sample daily farm life. Children attend for free!\n\nOn tap: The farm cools off. Talk to turkeys and shift into fall mode.\n\nTake a guided, early autumn tour with farmer Mac Stone for a look at the crops a...",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 3.5,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Softball vs. Eastern Kentucky",
+      "title": "Kentucky Women's Soccer vs. Mississippi State",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "John Cropp Stadium",
-      "description": "1:00 pm",
-      "url": "https://ukathletics.com/sports/softball/schedule/",
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "T 0-0",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -106,12 +89,12 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Volleyball vs. Louisville",
+      "title": "Kentucky Volleyball vs. Texas",
       "source": "uk_athletics",
       "start": null,
       "end": null,
       "location": "Lexington, Ky.",
-      "description": "W 3-1",
+      "description": "W 3-0",
       "url": "https://ukathletics.com/sports/wvball/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -123,46 +106,12 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Golf vs. Bettie Lou Evans Invitational",
+      "title": "Kentucky Men's Soccer at UCF",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Lexington, Ky. / University Club of KY (Big Blue)",
-      "description": "8:30 am",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Golf vs. Bettie Lou Evans Invitational",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. / University Club of KY (Big Blue)",
-      "description": "8:30 am",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Soccer at Lipscomb",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Nashville, Tenn. | Lipscomb Soccer Complex",
-      "description": "6:00 pm",
+      "location": "Orlando, Fla. | UCF Track & Soccer Complex",
+      "description": "T 1-1",
       "url": "https://ukathletics.com/sports/msoc/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -174,13 +123,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Volleyball at Vanderbilt",
+      "title": "Kentucky Men's Golf at Windon Memorial Classic",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Nashville, Tenn.",
-      "description": "9:00 pm",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "location": "Onwentsia Club | Lake Forest, Ill.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -191,11 +140,62 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Soccer at South Carolina",
+      "title": "Kentucky Men's Golf at Windon Memorial Classic",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Columbia, S.C. | Eugene E. Stone III Stadium",
+      "location": "Onwentsia Club | Lake Forest, Ill.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Basketball vs. Big Blue Madness (EXH)",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Rupp Arena at Central Bank Center | Lexington, Ky.",
+      "description": "TBA",
+      "url": "https://ukathletics.com/sports/mbball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Basketball vs. Big Blue Madness (EXH)",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Rupp Arena at Central Bank Center",
+      "description": "TBA",
+      "url": "https://ukathletics.com/sports/wbball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Soccer at Vanderbilt",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Nashville, Tenn. | Vanderbilt Soccer Complex",
       "description": "7:00 pm",
       "url": "https://ukathletics.com/sports/wsoc/schedule/",
       "open_to_all_uk": true,
