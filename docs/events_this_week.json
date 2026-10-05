@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-28T03:19:50.809335Z",
-  "week_of": "2026-09-28",
+  "generated_at": "2026-10-05T03:47:31.996512Z",
+  "week_of": "2026-10-05",
   "count": 12,
   "events": [
     {
-      "title": "Wynonna Judd: Kentucky Queen Tour",
+      "title": "Fall Family Festival",
       "source": "tadoo",
-      "start": "2026-09-30T23:30:00+00:00",
+      "start": "2026-10-10T18:00:00+00:00",
       "end": null,
-      "location": "Lexington Opera House",
-      "description": "Country Music Hall of Famer Wynonna Judd returns to Kentucky for a career-spanning performance drawing from more than four decades of music. The five-time Grammy winner rose to fame alongside her mother Naomi as The Judds before launching a successfu",
+      "location": "Beaumont Presbyterian Church",
+      "description": "This festival will be held in the church yard and is designed to be enjoyed by families - both adults and children.  There will be vendors, music, food trucks, free snacks and games for all ages.  Please join us!",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -17,16 +17,33 @@
         "community",
         "lexington"
       ],
-      "score": 4.0,
+      "score": 9.5,
       "is_top_pick": true
     },
     {
-      "title": "Wynonna Judd: Kentucky Queen Tour",
+      "title": "Movie Night: Toy Story 5",
       "source": "tadoo",
-      "start": "2026-09-30T23:30:00+00:00",
+      "start": "2026-10-16T22:00:00+00:00",
       "end": null,
-      "location": "Lexington Opera House",
-      "description": "Country Music Hall of Famer Wynonna Judd returns to Kentucky for a career-spanning performance drawing from more than four decades of music. The five-time Grammy winner rose to fame alongside her mother Naomi as The Judds before launching a successfu",
+      "location": "Gatton Park on the Town Branch",
+      "description": "Enjoy this FREE screening of Pixar\u2019s Toy Story 5 at Gatton Park presented by Kinetic High Speed Internet.\nIn addition to Kinetic\u2019s support of this community event, they provide FREE high speed wi-fi throughout the park each day!\n\nCelebrate the...",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 5.5,
+      "is_top_pick": false
+    },
+    {
+      "title": "Greyline Station Social - A Halloween Bash",
+      "source": "tadoo",
+      "start": "2026-10-09T21:00:00+00:00",
+      "end": null,
+      "location": "Greyline Station",
+      "description": "Join us for a Halloween Bash from 5-9 PM at Greyline Station.\n\n\n\n5 PM - 9 PM: Live music from Dead Air Dennis & The Bryan Himes Experience\n\n6 PM - 8 PM: Pumpkin decorating, trick-or-treating, tarot reading, mentalist, and more\n\n\n\nFun fo...",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -38,12 +55,12 @@
       "is_top_pick": false
     },
     {
-      "title": "In One A-Chord:  Lexington Sacred Music Festival",
+      "title": "Anderson County Burgoo Festival",
       "source": "tadoo",
-      "start": "2026-10-03T00:00:00+00:00",
+      "start": "2026-10-16T12:00:00+00:00",
       "end": null,
-      "location": "Various Locations",
-      "description": "In One A-Chord: Lexington Sacred Music Festival is a week-long celebration featuring live sacred musical experiences, humanities lectures, theatrical and dance happenings, poetic readings and so much more! The festival is rooted in music\u2019s power ...",
+      "location": "Century Bank Park",
+      "description": "The tradition continues! A 3-day festival celebrating a folk cuisine made of a mix of spices, vegetables and meats all slow-cooked over an open fire for hours. Live music, kids carnival rides, vendors galore. Be a part of a delicious, Anderson Co...",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -55,12 +72,12 @@
       "is_top_pick": false
     },
     {
-      "title": "Warehouse Block Party",
+      "title": "Jonas Brothers",
       "source": "tadoo",
-      "start": "2026-10-03T18:00:00+00:00",
+      "start": "2026-10-17T23:30:00+00:00",
       "end": null,
-      "location": "Void Sake",
-      "description": "Presented by Void Sake, The Warehouse Block Party returns with an expanded makers market, live music, and a sampling of the National Avenue neighborhood flavor. This year\u2019s event promises more than 50 local vendors, food and beverage trucks, a kids\u2019",
+      "location": "Rupp Arena",
+      "description": "Kevin, Joe and Nick Jonas revisit the music that helped define their early career on The Burning Up Tour All Over Again. Inspired by the trio\u2019s blockbuster 2008 tour, the arena show pairs nostalgic favorites including \u201cBurnin\u2019 Up,\u201d \u201cLovebug\u201d and \u201cS.O",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -72,13 +89,30 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Soccer vs. Mississippi State",
+      "title": "Kentucky Guild of Artists and Craftsmen - Fall Art Market 2026",
+      "source": "tadoo",
+      "start": "2026-10-17T14:00:00+00:00",
+      "end": null,
+      "location": "Kentucky Artisan Center",
+      "description": "Shop fine art and handcrafted work from Kentucky's premier artists and craftspeople. Enjoy a weekend of unique handmade creations, artist demonstrations, and the opportunity to meet the makers. Free admission. Located at Exit 77, I-75 (behind the...",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 3.5,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Golf vs. The Ally",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "T 0-0",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "location": "West Point, Miss. / Old Waverly Golf Club",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/wgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -89,13 +123,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Volleyball vs. Texas",
+      "title": "Kentucky Men's Golf vs. Cullan Brown Collegiate",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Lexington, Ky.",
-      "description": "W 3-0",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
+      "location": "Lexington Country Club | Lexington, Ky.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -106,12 +140,46 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Soccer at UCF",
+      "title": "Kentucky Women's Golf vs. The Ally",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Orlando, Fla. | UCF Track & Soccer Complex",
-      "description": "T 1-1",
+      "location": "West Point, Miss. / Old Waverly Golf Club",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Golf vs. Cullan Brown Collegiate",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington Country Club | Lexington, Ky.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer at Indiana",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Bloomington, Ind. | Bill Armstrong Stadium",
+      "description": "8:00 pm",
       "url": "https://ukathletics.com/sports/msoc/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -123,81 +191,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Golf at Windon Memorial Classic",
+      "title": "Kentucky Women's Golf vs. The Ally",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Onwentsia Club | Lake Forest, Ill.",
+      "location": "West Point, Miss. / Old Waverly Golf Club",
       "description": "All Day",
-      "url": "https://ukathletics.com/sports/mgolf/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Golf at Windon Memorial Classic",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Onwentsia Club | Lake Forest, Ill.",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/mgolf/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Basketball vs. Big Blue Madness (EXH)",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Rupp Arena at Central Bank Center | Lexington, Ky.",
-      "description": "TBA",
-      "url": "https://ukathletics.com/sports/mbball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Basketball vs. Big Blue Madness (EXH)",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Rupp Arena at Central Bank Center",
-      "description": "TBA",
-      "url": "https://ukathletics.com/sports/wbball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Soccer at Vanderbilt",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Nashville, Tenn. | Vanderbilt Soccer Complex",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
+      "url": "https://ukathletics.com/sports/wgolf/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
