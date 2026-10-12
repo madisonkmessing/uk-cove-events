@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-05T03:47:31.996512Z",
-  "week_of": "2026-10-05",
+  "generated_at": "2026-10-12T04:03:44.621605Z",
+  "week_of": "2026-10-12",
   "count": 12,
   "events": [
     {
-      "title": "Fall Family Festival",
+      "title": "Downtown \u201cThriller\u201d Parade and Halloween Festival",
       "source": "tadoo",
-      "start": "2026-10-10T18:00:00+00:00",
+      "start": "2026-10-25T00:00:00+00:00",
       "end": null,
-      "location": "Beaumont Presbyterian Church",
-      "description": "This festival will be held in the church yard and is designed to be enjoyed by families - both adults and children.  There will be vendors, music, food trucks, free snacks and games for all ages.  Please join us!",
+      "location": "Robert F. Stephens Courthouse Plaza",
+      "description": "Hundreds of costumed zombies shuffle and dance down Main Street in a large-scale reenactment of Michael Jackson\u2019s \u201cThriller.\u201d The downtown celebration begins with food, craft vendors and a variety show featuring spooky music and performances, followe",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -17,7 +17,7 @@
         "community",
         "lexington"
       ],
-      "score": 9.5,
+      "score": 6.0,
       "is_top_pick": true
     },
     {
@@ -35,23 +35,6 @@
         "lexington"
       ],
       "score": 5.5,
-      "is_top_pick": false
-    },
-    {
-      "title": "Greyline Station Social - A Halloween Bash",
-      "source": "tadoo",
-      "start": "2026-10-09T21:00:00+00:00",
-      "end": null,
-      "location": "Greyline Station",
-      "description": "Join us for a Halloween Bash from 5-9 PM at Greyline Station.\n\n\n\n5 PM - 9 PM: Live music from Dead Air Dennis & The Bryan Himes Experience\n\n6 PM - 8 PM: Pumpkin decorating, trick-or-treating, tarot reading, mentalist, and more\n\n\n\nFun fo...",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 4.0,
       "is_top_pick": false
     },
     {
@@ -89,6 +72,40 @@
       "is_top_pick": false
     },
     {
+      "title": "Ginkgo Galore",
+      "source": "tadoo",
+      "start": "2026-10-24T12:00:00+00:00",
+      "end": null,
+      "location": "The Granary",
+      "description": "GINKGO GALORE\u2122 is a daylong arts and music festival celebrating creativity and community in Wilmore, Kentucky, the Ginkgo Capital of America. Held Saturday, October 24, 2026, the festival features live music, juried art exhibitions, artisan vendo...",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 4.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "LexPhil: Heroes & Villains: Symphonic Movie Music",
+      "source": "tadoo",
+      "start": "2026-10-24T23:30:00+00:00",
+      "end": null,
+      "location": "Singletary Center for The Arts",
+      "description": "This program will explore the timeless battle between good and evil through music that has defined generations of filmgoers. The Lexington Philharmonic will perform unforgettable themes by legendary composers like Hans Zimmer, John Williams and Danny",
+      "url": null,
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "community",
+        "lexington"
+      ],
+      "score": 4.0,
+      "is_top_pick": false
+    },
+    {
       "title": "Kentucky Guild of Artists and Craftsmen - Fall Art Market 2026",
       "source": "tadoo",
       "start": "2026-10-17T14:00:00+00:00",
@@ -106,13 +123,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Golf vs. The Ally",
+      "title": "Kentucky Volleyball vs. Ole Miss",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "West Point, Miss. / Old Waverly Golf Club",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "location": "Lexington, Ky.",
+      "description": "W 3-1",
+      "url": "https://ukathletics.com/sports/wvball/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -123,13 +140,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Golf vs. Cullan Brown Collegiate",
+      "title": "Kentucky Baseball vs. Xavier (EXH)",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Lexington Country Club | Lexington, Ky.",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "location": "Lexington, Ky.",
+      "description": "2:00 pm",
+      "url": "https://ukathletics.com/sports/baseball/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -140,13 +157,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Golf vs. The Ally",
+      "title": "Kentucky Women's Soccer at Auburn",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "West Point, Miss. / Old Waverly Golf Club",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "location": "Auburn, Ala. | Auburn Soccer Complex",
+      "description": "7:30 pm",
+      "url": "https://ukathletics.com/sports/wsoc/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -157,13 +174,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Golf vs. Cullan Brown Collegiate",
+      "title": "Kentucky Cross Country vs. Pre-National Invitational",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Lexington Country Club | Lexington, Ky.",
-      "description": "All Day",
-      "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "location": "Terre Haute, Ind. | LaVern Gibson Champ XC Course",
+      "description": "TBA",
+      "url": "https://ukathletics.com/sports/cross/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -174,30 +191,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Men's Soccer at Indiana",
+      "title": "Kentucky Men's Swimming & Diving vs. South Carolina",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Bloomington, Ind. | Bill Armstrong Stadium",
-      "description": "8:00 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Golf vs. The Ally",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "West Point, Miss. / Old Waverly Golf Club",
+      "location": "Atlanta, Ga. |  McAuley Aquatic Center",
       "description": "All Day",
-      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "url": "https://ukathletics.com/sports/mswim/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
