@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T04:03:44.621605Z",
-  "week_of": "2026-10-12",
+  "generated_at": "2026-10-19T03:01:03.489500Z",
+  "week_of": "2026-10-19",
   "count": 12,
   "events": [
     {
@@ -21,12 +21,12 @@
       "is_top_pick": true
     },
     {
-      "title": "Movie Night: Toy Story 5",
+      "title": "Purple Xperience: A Prince Tribute",
       "source": "tadoo",
-      "start": "2026-10-16T22:00:00+00:00",
+      "start": "2026-10-30T00:00:00+00:00",
       "end": null,
-      "location": "Gatton Park on the Town Branch",
-      "description": "Enjoy this FREE screening of Pixar\u2019s Toy Story 5 at Gatton Park presented by Kinetic High Speed Internet.\nIn addition to Kinetic\u2019s support of this community event, they provide FREE high speed wi-fi throughout the park each day!\n\nCelebrate the...",
+      "location": "The Burl",
+      "description": "Minneapolis-based tribute band The Purple Xperience celebrates the music, showmanship and unmistakable style of Prince. Fronted by Marshall Charloff, the group performs the Purple One\u2019s greatest hits live for a free show, as part of Lexington\u2019s Breed",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -35,40 +35,6 @@
         "lexington"
       ],
       "score": 5.5,
-      "is_top_pick": false
-    },
-    {
-      "title": "Anderson County Burgoo Festival",
-      "source": "tadoo",
-      "start": "2026-10-16T12:00:00+00:00",
-      "end": null,
-      "location": "Century Bank Park",
-      "description": "The tradition continues! A 3-day festival celebrating a folk cuisine made of a mix of spices, vegetables and meats all slow-cooked over an open fire for hours. Live music, kids carnival rides, vendors galore. Be a part of a delicious, Anderson Co...",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 4.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Jonas Brothers",
-      "source": "tadoo",
-      "start": "2026-10-17T23:30:00+00:00",
-      "end": null,
-      "location": "Rupp Arena",
-      "description": "Kevin, Joe and Nick Jonas revisit the music that helped define their early career on The Burning Up Tour All Over Again. Inspired by the trio\u2019s blockbuster 2008 tour, the arena show pairs nostalgic favorites including \u201cBurnin\u2019 Up,\u201d \u201cLovebug\u201d and \u201cS.O",
-      "url": null,
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "community",
-        "lexington"
-      ],
-      "score": 4.0,
       "is_top_pick": false
     },
     {
@@ -106,12 +72,12 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Guild of Artists and Craftsmen - Fall Art Market 2026",
+      "title": "FREE Silent Disco",
       "source": "tadoo",
-      "start": "2026-10-17T14:00:00+00:00",
+      "start": "2026-10-24T00:00:00+00:00",
       "end": null,
-      "location": "Kentucky Artisan Center",
-      "description": "Shop fine art and handcrafted work from Kentucky's premier artists and craftspeople. Enjoy a weekend of unique handmade creations, artist demonstrations, and the opportunity to meet the makers. Free admission. Located at Exit 77, I-75 (behind the...",
+      "location": "John's Run/Walk Shop",
+      "description": "Put your dancing shoes on (or try out some of ours). John's Run/Walk Shop and HOKA are throwing another FREE Silent Disco on Saturday, October 3.\n\nJoin us for an outdoor party behind John's Run/Walk Shop on 317 Ashland Ave. \n\nHeadphones to en...",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -123,12 +89,63 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Volleyball vs. Ole Miss",
+      "title": "Kentucky Men's Golf at Williams Cup",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Lexington, Ky.",
-      "description": "W 3-1",
+      "location": "Eagle Point Golf Club | Wilmington, N.C.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Tennis vs. ITF M15 Ithaca",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Ithaca, N.Y.",
+      "description": "TBA",
+      "url": "https://ukathletics.com/sports/mten/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Golf at Williams Cup",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Eagle Point Golf Club | Wilmington, N.C.",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/mgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Volleyball at Tennessee",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Knoxville, Tenn.",
+      "description": "7:00 pm",
       "url": "https://ukathletics.com/sports/wvball/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -140,13 +157,13 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Baseball vs. Xavier (EXH)",
+      "title": "Kentucky Men's Soccer vs. Coastal Carolina",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Lexington, Ky.",
-      "description": "2:00 pm",
-      "url": "https://ukathletics.com/sports/baseball/schedule/",
+      "location": "Lexington, Ky. | Bell Soccer Complex",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
       "tags": [
@@ -157,46 +174,29 @@
       "is_top_pick": false
     },
     {
-      "title": "Kentucky Women's Soccer at Auburn",
+      "title": "Kentucky Women's Golf vs. The Landfall Tradition",
       "source": "uk_athletics",
       "start": null,
       "end": null,
-      "location": "Auburn, Ala. | Auburn Soccer Complex",
-      "description": "7:30 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Cross Country vs. Pre-National Invitational",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Terre Haute, Ind. | LaVern Gibson Champ XC Course",
-      "description": "TBA",
-      "url": "https://ukathletics.com/sports/cross/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Swimming & Diving vs. South Carolina",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Atlanta, Ga. |  McAuley Aquatic Center",
+      "location": "Wilmington, N.C. / Landfall Country Club",
       "description": "All Day",
+      "url": "https://ukathletics.com/sports/wgolf/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Swimming & Diving at Indiana & South California",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Bloomington, Ind. | Counsilman-Billingsley Aquatics Center",
+      "description": "2:00 pm",
       "url": "https://ukathletics.com/sports/mswim/schedule/",
       "open_to_all_uk": true,
       "interest_signal": 0,
