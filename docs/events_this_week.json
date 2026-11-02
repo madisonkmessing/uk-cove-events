@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T02:56:47.138707Z",
-  "week_of": "2026-10-26",
+  "generated_at": "2026-11-02T04:05:29.934721Z",
+  "week_of": "2026-11-02",
   "count": 12,
   "events": [
     {
@@ -21,12 +21,12 @@
       "is_top_pick": true
     },
     {
-      "title": "Purple Xperience: A Prince Tribute",
+      "title": "\u201cBee Taylor and the Lexington Philharmonic String Quartet: The Movie.\"",
       "source": "tadoo",
-      "start": "2026-10-30T00:00:00+00:00",
+      "start": "2026-11-06T00:00:00+00:00",
       "end": null,
-      "location": "The Burl",
-      "description": "Minneapolis-based tribute band The Purple Xperience celebrates the music, showmanship and unmistakable style of Prince. Fronted by Marshall Charloff, the group performs the Purple One\u2019s greatest hits live for a free show, as part of Lexington\u2019s Breed",
+      "location": "Kentucky Theater",
+      "description": "A collaboration between songwriter Bee Taylor and the Lexington Philharmonic String Quartet gets a second life on the big screen. Filmed by Lexington\u2019s Black Mountain Studios and introduced on screen by author Silas House, the 85-minute concert film",
       "url": null,
       "open_to_all_uk": true,
       "interest_signal": 0,
@@ -34,7 +34,7 @@
         "community",
         "lexington"
       ],
-      "score": 5.5,
+      "score": 4.0,
       "is_top_pick": false
     },
     {
@@ -52,125 +52,6 @@
         "lexington"
       ],
       "score": 4.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Swimming & Diving vs. US World Championship Trials",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Westmont, Ill. | FMC Natatorium",
-      "description": "4:00 pm",
-      "url": "https://ukathletics.com/sports/mswim/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Basketball vs. UCF (EXH)",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Rupp Arena at Central Bank Center | Lexington, Ky.",
-      "description": "6:00 pm",
-      "url": "https://ukathletics.com/sports/mbball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Cross Country vs. SEC Championships",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Columbia, Mo. | Gans Creek Cross Country Course",
-      "description": "TBA",
-      "url": "https://ukathletics.com/sports/cross/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Volleyball vs. Missouri",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky.",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/wvball/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Men's Soccer vs. Georgia Southern",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "7:00 pm",
-      "url": "https://ukathletics.com/sports/msoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Rifle vs. Navy",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. - Barker Hall",
-      "description": "TBA",
-      "url": "https://ukathletics.com/sports/rifle/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
-      "is_top_pick": false
-    },
-    {
-      "title": "Kentucky Women's Soccer vs. Arkansas",
-      "source": "uk_athletics",
-      "start": null,
-      "end": null,
-      "location": "Lexington, Ky. | Bell Soccer Complex",
-      "description": "1:00 pm",
-      "url": "https://ukathletics.com/sports/wsoc/schedule/",
-      "open_to_all_uk": true,
-      "interest_signal": 0,
-      "tags": [
-        "sports",
-        "school spirit"
-      ],
-      "score": 2.0,
       "is_top_pick": false
     },
     {
@@ -192,6 +73,125 @@
     },
     {
       "title": "Kentucky Men's Basketball vs. Manhattan",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Rupp Arena at Central Bank Center | Lexington, Ky.",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/mbball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Soccer at Georgia State",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Atlanta, Ga. | GSU Soccer Complex",
+      "description": "7:00 pm",
+      "url": "https://ukathletics.com/sports/msoc/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Tennis vs. ITA Sectional Championships",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Knoxville, TN | Goodfriend Tennis Center",
+      "description": "All Day",
+      "url": "https://ukathletics.com/sports/wten/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Tennis vs. ITA South Sectional Championships",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Tallahassee, Fla.",
+      "description": "TBA",
+      "url": "https://ukathletics.com/sports/mten/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Women's Basketball vs. NKU",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Historic Memorial Coliseum",
+      "description": "6:30 pm",
+      "url": "https://ukathletics.com/sports/wbball/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Swimming & Diving vs. Ohio State",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky. | Lancaster Aquatic Center",
+      "description": "5:00 pm",
+      "url": "https://ukathletics.com/sports/mswim/schedule/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky vs. Alabama",
+      "source": "uk_athletics",
+      "start": null,
+      "end": null,
+      "location": "Lexington, Ky.",
+      "description": "7:00 pm",
+      "url": "https://collegiatemobile.com/uk-kentucky-mobile/",
+      "open_to_all_uk": true,
+      "interest_signal": 0,
+      "tags": [
+        "sports",
+        "school spirit"
+      ],
+      "score": 2.0,
+      "is_top_pick": false
+    },
+    {
+      "title": "Kentucky Men's Basketball vs. James Madison",
       "source": "uk_athletics",
       "start": null,
       "end": null,
